@@ -13,16 +13,16 @@ ReactDOM.render(
       imgURL={Contacts[0].imgURL}
     />
     <App
-      name={Contacts[2].name}
-      email={Contacts[2].email}
-      phone={Contacts[2].phone}
-      imgURL={Contacts[2].imgURL}
-    />
-    <App
       name={Contacts[1].name}
       email={Contacts[1].email}
       phone={Contacts[1].phone}
       imgURL={Contacts[1].imgURL}
+    />
+    <App
+      name={Contacts[2].name}
+      email={Contacts[2].email}
+      phone={Contacts[2].phone}
+      imgURL={Contacts[2].imgURL}
     />
   </div>,
   document.getElementById("root")
